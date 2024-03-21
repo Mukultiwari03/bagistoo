@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Getready = () => {
+const Newbold = () => {
   return (
-    <div className='w-screen mt-20 lg:mt-0'>
-      <div className='flex lg:flex-row flex-col items-center gap-10 justify-center lg:w-[80%] w-full lg:h-[40rem] h-[fit-cotent] mx-auto'>
+    <div className='w-screen mt-20 lg:mt-0 '>
+      <div className='flex lg:flex-row-reverse flex-col items-center gap-10 justify-center lg:w-[80%] w-full lg:h-[40rem] h-[fit-cotent] mx-auto'>
         <div className='flex items-center justify-center lg:w-[50%]'>
-          <img src="https://demo.bagisto.com/bagisto-common/storage/theme/6/BM9JR17OYnbD1n2kK9PqFj9ojBIxk4TGJBOy5P61.webp" alt="get ready img" className='rounded-[16px] lg:w-[632px] md:w-[535px] w-[366px]' />
+          <img src="https://demo.bagisto.com/bagisto-common/storage/theme/10/GhiESeKgXxebvQ0nS4JBRd0Gbf0ASvQDaUFKS6uT.webp" alt="get ready img" className='rounded-[16px] lg:w-[632px] md:w-[535px] w-[366px]' />
         </div>
         <div className='flex flex-col lg:items-start gap-y-7 lg:w-[50%] w-full '>
           <h2 className='md:text-6xl text-5xl text-center lg:text-start font-bold' style={{ fontFamily: "DM Serif Display" }}>
@@ -19,4 +19,4 @@ const Getready = () => {
   );
 };
 
-export default Getready;
+export default Newbold;
