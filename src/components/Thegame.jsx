@@ -28,10 +28,10 @@ const Thegame = () => {
     ];
 
     return (
-        <div className='md:mt-[3rem] mt-[1rem]'>
+        <div className='md:mt-[3rem] mt-[1rem] w-[90%] mx-auto'>
             <p className=' sm:text-6xl text-5xl font-bold text-center  py-5' style={{fontFamily:" DM Serif Display"}}>
             The game with our <br/>new additions!</p>
-        <div className='flex gap-7 flex-wrap items-center justify-center mt-12'>
+        <div className='flex gap-5 flex-wrap items-center justify-center mt-12'>
             {images.map((item, index) => (
                 <div key={index} className="rounded-[16px] flex items-end justify-center hover:scale-[102%] ease-in-out duration-[0.5s]" style={{ background: `url(${item.url})`, width: '400px',height:"400px", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                   <p className=' sm:text-3xl font-bold text-center py-5' style={{fontFamily:" DM Serif Display"}}>

@@ -46,8 +46,8 @@ const Nav = () => {
         <div className='lg:flex items-center hidden justify-evenly w-[30%]'>
 
      
-        <div className="hidden md:flex items-center  bg-gray-100 border rounded-md focus:outline-none hover:focus:ring-1 hover:focus:ring-gray-500">
-          <input type="text" placeholder="Search..." className="text-gray-600 placeholder-gray-400 bg-gray-100 py-2 px-4 "/>
+        <div className="hidden md:flex items-center  bg-gray-100 hover:border-[#000]  rounded-md">
+          <input type="text" placeholder="Search..." className="text-gray-600 rounded-md placeholder-gray-400 border-none outline-none bg-gray-100 py-2 px-4 "/>
           <button className="pe-3">
             <svg className="h-5 w-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="10.5" cy="10.5" r="7.5"/>
